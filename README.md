@@ -93,9 +93,9 @@ add several lines to ~/.vimrc later
 	</br><h6>Bundle 'Valloric/YouCompleteMe'
 	</br> let g:ycm_autoclose_preview_window_after_completion=1
 	</br> map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>   
-	 (This steps will not easy,more try,don't give up!)	
+	</br> (This steps will not easy,more try,don't give up!)	
 	<h6>
-	<h5>1.1)</br> 
+	1.1)</br> 
 	
 	 ..bash...
 	 # sudo apt-get install python-dev python3-dev
