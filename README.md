@@ -185,12 +185,10 @@ several textfiles in one textfile )
 	 let NERDTreeWinSize=25
 `
 
-The last:<h2>
-see .vimrc for more config command</br>
-.vimrc Link:https://github.com/MagicVin/CustomIDE/blob/master/.vimrc</br>
-see InstallClang Guide: </br>
-Guide link:https://github.com/MagicVin/CustomIDE/blob/master/InstallClang.guide</br>
-see owner: https://github.com/MagicVin </br>
+<h2>The last
+<h5>See .vimrc Link:https://github.com/MagicVin/CustomIDE/blob/master/.vimrc</br>
+<h5>See Clang link:https://github.com/MagicVin/CustomIDE/blob/master/InstallClang.guide
+<h5>See Github: https://github.com/MagicVin 
 
 
 
