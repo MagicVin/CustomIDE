@@ -58,14 +58,13 @@ several textfiles in one textfile )
 <h4>5.Jump between splits with just one key combination  
 add several lines to ~/.vimrc later  
 		<h6>"split navigations
-</br>nnoremap <C-J> <C-W><C-J>
-</br>nnoremap <C-K> <C-W><C-K>
-</br>nnoremap <C-L> <C-W><C-L>
-</br>nnoremap <C-H> <C-W><C-H>  
+</br>nnoremap "<C-J> <C-W><C-J>"
+</br>nnoremap "<C-K> <C-W><C-K>"
+</br>nnoremap "<C-L> <C-W><C-L>"
+</br>nnoremap "<C-H> <C-W><C-H>"  
 
 </br>(Add them, you can use Ctrl + w[hjkl] to jump each splits)  
-<h6>
-</br>Ctrl-j move to the split below
+<h6></br>Ctrl-j move to the split below
 </br>Ctrl-k move to the split above
 </br>Ctrl-l move to the split to the right
 </br>Ctrl-h move to the split to the left
@@ -73,12 +72,12 @@ add several lines to ~/.vimrc later
 <h6>
 <h6>
 <h4>6.Enable Folding  
-</br>Add two lines to ~/.vimrc later  
+</br<h5>Add two lines to ~/.vimrc later  
 		<h6>"Enable Folding
-set foldmethod=indent
-set foldlevel=99
-"Enable folding with the spacebar
-nnoremap <space> za  
+</br>set foldmethod=indent
+</br>set foldlevel=99
+</br>"Enable folding with the spacebar
+</br>nnoremap <space> za  
 <h6>
 (In vim normal mode ,type ":za" to fold)
 <h4>7.Add Python Indentation  
