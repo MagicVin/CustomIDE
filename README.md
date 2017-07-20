@@ -44,9 +44,8 @@
 
 (Vundle install complete)  
 <h4>4.Make layout split,add two lines to ~/.vimrc later  
-				
-set splitbelow
-set splitright  
+	set splitbelow
+	set splitright  
 
 (In vim normal mode you can type":vs filename"or ":sv filename" to open 
 several textfiles in one textfile )  
