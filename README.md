@@ -1,19 +1,22 @@
-:Guide for build Python IDE base on Vim<br>
+:Guide for build Python IDE base on Vim</br>
 
 
 Prebuilt preparation:
+
 	Distributor ID:	Ubuntu
 	Description:	Ubuntu 16.04.2 LTS
 	Release:	16.04
 	Codename:	xenial
 	kernel:		4.8.0-58-generic
 	Vim:		Vi IMproved 7.4
+
 (Make sure your vim support python3:"+python3")
 
 
 Extend Vim:
 
 Recommend Bundle manager: Vundle
+
 1.git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 2.vim ~/.vimrc
 -------------------------------------------------------------------------------
