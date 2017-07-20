@@ -1,7 +1,7 @@
-:Guide for build Python IDE base on Vim</br>
+<h1>Guide for build Python IDE base on Vim</br>
 
 
-Prebuilt preparation:
+## Prebuilt preparation:
 
 	Distributor ID:	Ubuntu
 	Description:	Ubuntu 16.04.2 LTS
@@ -13,12 +13,12 @@ Prebuilt preparation:
 (Make sure your vim support python3:"+python3")
 
 
-Extend Vim:
+## Extend Vim:
 
-Recommend Bundle manager: Vundle
+## Recommend Bundle manager: Vundle
 
-1.git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-2.vim ~/.vimrc
+# 1.git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+# 2.vim ~/.vimrc
 -------------------------------------------------------------------------------
 set nocompatible              " required
 filetype off                  " required
@@ -41,7 +41,7 @@ call vundle#end()            " required
 filetype plugin indent on    " requireid
 -------------------------------------------------------------------------------
 (recommend copy above file config)
-3.Install Vundle
+# 3.Install Vundle
 ...bash...
 #vim
 (normal mode)
@@ -50,14 +50,14 @@ filetype plugin indent on    " requireid
 ...bash...
 #
 (Vundle install complete) 
-4.Make layout split,add two lines to ~/.vimrc later
+# 4.Make layout split,add two lines to ~/.vimrc later
 -------------------------------------------------------------------------------
 set splitbelow
 set splitright
 -------------------------------------------------------------------------------
 (In vim normal mode you can type":vs filename"or ":sv filename" to open 
 several textfiles in one textfile )
-5.Jump between splits with just one key combination
+# 5.Jump between splits with just one key combination
 add several lines to ~/.vimrc later
 -------------------------------------------------------------------------------
 "split navigations
@@ -74,7 +74,7 @@ Ctrl-l move to the split to the right
 Ctrl-h move to the split to the left
 Ctrl-w move to the each split 
 ...
-6.Enable Folding
+# 6.Enable Folding
 Add two lines to ~/.vimrc later
 ------------------------------------------------------------------------------
 "Enable Folding
@@ -84,7 +84,7 @@ set foldlevel=99
 nnoremap <space> za
 -------------------------------------------------------------------------------
 (In vim normal mode ,type ":za" to fold)
-7.Add Python Indentation
+# 7.Add Python Indentation
 add the following to your ~/.vimrc later
 ------------------------------------------------------------------------------
 au BufNewFile,BufRead *.py
@@ -96,10 +96,10 @@ au BufNewFile,BufRead *.py
  \ set autoindent |
  \ set fileformat=unix |
 ------------------------------------------------------------------------------
-8.UTF8 Support,add the following to your ~/.vimrc
+# 8.UTF8 Support,add the following to your ~/.vimrc
 set encoding=utf-8
-9.Install bunldes for Vim
-	1.0)
+# 9.Install bunldes for Vim
+	##1.0)
 	 Install "Valloric/YouCompleteMe", add the following to your ~/.vimrc 
 ------------------------------------------------------------------------------
 	 Bundle 'Valloric/YouCompleteMe'
@@ -107,7 +107,7 @@ set encoding=utf-8
 	 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>
 ------------------------------------------------------------------------------
 	 (This steps will not easy,more try,don't give up!)	
-	1.1)
+	###1.1)
 	 ...bash...
 	 # sudo apt-get install python-dev python3-dev
 	 # cd ~/.vim/bundle/YouCompleteMe
@@ -189,10 +189,10 @@ set encoding=utf-8
 	 let NERDTreeWinSize=25
 ------------------------------------------------------------------------------
 
-The last:
-see .vimrc for more config command
-see https://github.com/MagicVin 
-see  
+The last:</br>
+see .vimrc for more config command</br>
+see https://github.com/MagicVin </br>
+see  </br>
 
 
 
