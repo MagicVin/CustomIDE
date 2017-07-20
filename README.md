@@ -68,12 +68,13 @@ add several lines to ~/.vimrc later
 
 <h4>6.Enable Folding  
 </br>Add two lines to ~/.vimrc later  
+
 	"Enable Folding
 	set foldmethod=indent
 	set foldlevel=99
 	"Enable folding with the spacebar
 	nnoremap <space> za  
-<h6>
+
 (In vim normal mode ,type ":za" to fold)
 <h4>7.Add Python Indentation  
 		<h6>add the following to your ~/.vimrc later  
