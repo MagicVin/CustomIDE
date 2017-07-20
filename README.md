@@ -44,27 +44,28 @@
 
 (Vundle install complete)  
 <h4>4.Make layout split,add two lines to ~/.vimrc later  
+
 	set splitbelow
 	set splitright  
-
 (In vim normal mode you can type":vs filename"or ":sv filename" to open 
 several textfiles in one textfile )  
 <h4>5.Jump between splits with just one key combination  
 add several lines to ~/.vimrc later  
-		<h6>"split navigations
-</br>nnoremap "<C-J> <C-W><C-J>"
-</br>nnoremap "<C-K> <C-W><C-K>"
-</br>nnoremap "<C-L> <C-W><C-L>"
-</br>nnoremap "<C-H> <C-W><C-H>"  
 
-</br>(Add them, you can use Ctrl + w[hjkl] to jump each splits)  
-<h6></br>Ctrl-j move to the split below
-</br>Ctrl-k move to the split above
-</br>Ctrl-l move to the split to the right
-</br>Ctrl-h move to the split to the left
-</br>Ctrl-w move to the each split 
-<h6>
-<h6>
+	"split navigations
+	nnoremap "<C-J> <C-W><C-J>"
+	nnoremap "<C-K> <C-W><C-K>"
+	nnoremap "<C-L> <C-W><C-L>"
+	nnoremap "<C-H> <C-W><C-H>"  
+
+(Add them, you can use Ctrl + w[hjkl] to jump each splits)  
+
+	Ctrl-j move to the split below
+	Ctrl-k move to the split above
+	Ctrl-l move to the split to the right
+	Ctrl-h move to the split to the left
+	Ctrl-w move to the each split 
+
 <h4>6.Enable Folding  
 </br<h5>Add two lines to ~/.vimrc later  
 		<h6>"Enable Folding
@@ -76,32 +77,31 @@ add several lines to ~/.vimrc later
 (In vim normal mode ,type ":za" to fold)
 <h4>7.Add Python Indentation  
 		<h6>add the following to your ~/.vimrc later  
-au BufNewFile,BufRead *.py
- \ set tabstop=4 |
- \ set softtabstop=4 |
- \ set shiftwidth=4 |
- \ set textwidth=79 |
- \ set expandtab |
- \ set autoindent |
- \ set fileformat=unix |  
+</br>au BufNewFile,BufRead *.py
+</br> \ set tabstop=4 |
+</br> \ set softtabstop=4 |
+</br> \ set shiftwidth=4 |
+</br> \ set textwidth=79 |
+</br> \ set expandtab |
+</br> \ set autoindent |
+</br> \ set fileformat=unix |  
   
 <h4>8.UTF8 Support,add the following to your ~/.vimrc  
 		<h6>set encoding=utf-8  
 <h4>9.Install bunldes for Vim
-	<h5>1.0)  
-	Install "Valloric/YouCompleteMe", add the following to your ~/.vimrc  
-	<h6> Bundle 'Valloric/YouCompleteMe'
-	 let g:ycm_autoclose_preview_window_after_completion=1
-	 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>   
+	<h5>1.0)Install "Valloric/YouCompleteMe", add the following to your ~/.vimrc  
+	</br><h6>Bundle 'Valloric/YouCompleteMe'
+	</br> let g:ycm_autoclose_preview_window_after_completion=1
+	</br> map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>   
 	 (This steps will not easy,more try,don't give up!)	
 	<h6>
-	<h5>1.1)
-		<h6> 
-	`...bash...
+	<h5>1.1)</br> 
+	
+	 ..bash...
 	 # sudo apt-get install python-dev python3-dev
 	 # cd ~/.vim/bundle/YouCompleteMe
-	 # ./install.py`
-	<h6>
+	 # ./install.py
+
 	<h5>1.2)
 	 download Clang+llvm from official address
 	<h6> <1.2.0> # mkdir -p ~/ycm_temp/llvm_root_dir
