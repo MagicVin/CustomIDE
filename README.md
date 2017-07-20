@@ -94,21 +94,21 @@ add several lines to ~/.vimrc later
 	</br> let g:ycm_autoclose_preview_window_after_completion=1
 	</br> map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>   
 	</br> (This steps will not easy,more try,don't give up!)	
-	<h6>
+
 	<h5>1.1)
 	
-	 ..bash...
-	 # sudo apt-get install python-dev python3-dev
-	 # cd ~/.vim/bundle/YouCompleteMe
-	 # ./install.py
+	<h6></br> ..bash...
+	</br> # sudo apt-get install python-dev python3-dev
+	</br> # cd ~/.vim/bundle/YouCompleteMe
+	</br> # ./install.py
 
 	<h5>1.2)
 	 download Clang+llvm from official address
 	<h6> <1.2.0> # mkdir -p ~/ycm_temp/llvm_root_dir
-	<h6> <1.2.1> # tar xvfJ clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04.tar.xz -C ~/ycm_temp/llvm_root_dir
+	</br> <1.2.1> # tar xvfJ clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04.tar.xz -C ~/ycm_temp/llvm_root_dir
 			(.tar.xz package must use "J" to extract)
-	 <h6><1.2.2> # cd ~/ycm_temp/llvm_root_dir/clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04/
-	 <h6><1.2.3> # cmake -G "Unix Makefiles" -DPATH_TO_LLVM_ROOT=~/ycm_temp/llvm_root_dir . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp  
+	 </br><1.2.2> # cd ~/ycm_temp/llvm_root_dir/clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04/
+	 </br><1.2.3> # cmake -G "Unix Makefiles" -DPATH_TO_LLVM_ROOT=~/ycm_temp/llvm_root_dir . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp  
 	(At this steps(1.2.3) ,you must install YCM(YouCompleteMe) in Vundle first)
 	<h5>1.3)  
 	Add the following to your ~/.vimrc later  
