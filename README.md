@@ -103,14 +103,15 @@ add several lines to ~/.vimrc later
 	# cd ~/.vim/bundle/YouCompleteMe
 	 # ./install.py
 
-<h5>1.2)
-</br>download Clang+llvm from official address
+<h5>1.2)download Clang+llvm from official address
+	
 	<1.2.0># mkdir -p ~/ycm_temp/llvm_root_dir
 	<1.2.1> # tar xvfJ clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04.tar.xz -C ~/ycm_temp/llvm_root_dir
 	</br>(.tar.xz package must use "J" to extract)
 	<1.2.2> # cd ~/ycm_temp/llvm_root_dir/clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04/
 	<1.2.3> # cmake -G "Unix Makefiles" -DPATH_TO_LLVM_ROOT=~/ycm_temp/llvm_root_dir . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp  
-	(At this steps(1.2.3) ,you must install YCM(YouCompleteMe) in Vundle first)
+	
+<h6>(At this steps(1.2.3) ,you must install YCM(YouCompleteMe) in Vundle first)
 <h5>1.3)  
 	Add the following to your ~/.vimrc later  
 	 
