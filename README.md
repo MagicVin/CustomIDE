@@ -94,8 +94,8 @@ add several lines to ~/.vimrc later
 	</br> let g:ycm_autoclose_preview_window_after_completion=1
 	</br> map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>   
 	</br> (This steps will not easy,more try,don't give up!)	
-	<h6>
-	1.1)</br> 
+	
+	<h5>1.1)</br> 
 	
 	 ..bash...
 	 # sudo apt-get install python-dev python3-dev
