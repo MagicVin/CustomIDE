@@ -18,7 +18,7 @@
 
 <h4>1.git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 <h4>2.vim ~/.vimrc  
-`set nocompatible              " required  
+<h6>set nocompatible              " required  
 filetype off                  " required  
 
 " set the runtime path to include Vundle and initialize  
@@ -35,7 +35,7 @@ Plugin 'gmarik/Vundle.vim'
 
 " All of your Plugins must be added before the following line  
 call vundle#end()            " required  
-filetype plugin indent on    " requireid`  
+filetype plugin indent on    " requireid<h6>
   
 (recommend copy above file config)  
 <h4>3.Install Vundle  
