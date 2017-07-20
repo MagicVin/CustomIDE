@@ -1,4 +1,4 @@
-:Guide for build Python IDE base on Vim
+:Guide for build Python IDE base on Vim<br>
 
 
 Prebuilt preparation:
