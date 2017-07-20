@@ -40,7 +40,7 @@ filetype plugin indent on    " requireid<h6>
 (recommend copy above file config)  
 <h4>3.Install Vundle  
 		  
-<h6>...bash...  
+		<h6>...bash...  
 #vim  
 (normal mode)  
 :PluginInstall  
@@ -49,7 +49,7 @@ filetype plugin indent on    " requireid<h6>
 <h6>
 (Vundle install complete)  
 <h4>4.Make layout split,add two lines to ~/.vimrc later  
-		
+				
 set splitbelow
 set splitright  
 
@@ -58,23 +58,23 @@ several textfiles in one textfile )
 <h4>5.Jump between splits with just one key combination  
 add several lines to ~/.vimrc later  
 		<h6>"split navigations
-nnoremap <C-J> <C-W><C-J>
-nnoremap <C-K> <C-W><C-K>
-nnoremap <C-L> <C-W><C-L>
-nnoremap <C-H> <C-W><C-H>  
+</br>nnoremap <C-J> <C-W><C-J>
+</br>nnoremap <C-K> <C-W><C-K>
+</br>nnoremap <C-L> <C-W><C-L>
+</br>nnoremap <C-H> <C-W><C-H>  
 
-(Add them, you can use Ctrl + w[hjkl] to jump each splits)  
-...
-Ctrl-j move to the split below
-Ctrl-k move to the split above
-Ctrl-l move to the split to the right
-Ctrl-h move to the split to the left
-Ctrl-w move to the each split 
-...
+</br>(Add them, you can use Ctrl + w[hjkl] to jump each splits)  
+<h6>
+</br>Ctrl-j move to the split below
+</br>Ctrl-k move to the split above
+</br>Ctrl-l move to the split to the right
+</br>Ctrl-h move to the split to the left
+</br>Ctrl-w move to the each split 
+<h6>
 <h6>
 <h4>6.Enable Folding  
-		<h6>Add two lines to ~/.vimrc later  
-`"Enable Folding
+</br>Add two lines to ~/.vimrc later  
+		<h6>"Enable Folding
 set foldmethod=indent
 set foldlevel=99
 "Enable folding with the spacebar
