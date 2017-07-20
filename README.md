@@ -17,37 +17,36 @@
 ## Recommend Bundle manager: Vundle
 
 <h4>1.git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-<h4>2.vim ~/.vimrc
+<h4>2.vim ~/.vimrc  
 `
-set nocompatible              " required
-filetype off                  " required
+set nocompatible              " required  
+filetype off                  " required  
 
-" set the runtime path to include Vundle and initialize
-set rtp+=~/.vim/bundle/Vundle.vim
-call vundle#begin()
+" set the runtime path to include Vundle and initialize  
+set rtp+=~/.vim/bundle/Vundle.vim  
+call vundle#begin()  
+" alternatively, pass a path where Vundle should install plugins  
+"call vundle#begin('~/some/path/here')  
 
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
+" let Vundle manage Vundle, required  
+Plugin 'gmarik/Vundle.vim'  
 
-" let Vundle manage Vundle, required
-Plugin 'gmarik/Vundle.vim'
-
-" Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)
+" Add all your plugins here (note older versions of Vundle used Bundle instead of Plugin)  
 
 
-" All of your Plugins must be added before the following line
-call vundle#end()            " required
-filetype plugin indent on    " requireid
-`
+" All of your Plugins must be added before the following line  
+call vundle#end()            " required  
+filetype plugin indent on    " requireid  
+`  
 (recommend copy above file config)  
-<h4>3.Install Vundle
-`
-...bash...
-#vim
-(normal mode)
-:PluginInstall
-:q
-...bash...
+<h4>3.Install Vundle  
+`  
+...bash...  
+#vim  
+(normal mode)  
+:PluginInstall  
+:q  
+...bash...  
 `  
 (Vundle install complete)  
 <h4>4.Make layout split,add two lines to ~/.vimrc later  
@@ -104,11 +103,11 @@ add the following to your ~/.vimrc later
 	 map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>  
     `  
 	 (This steps will not easy,more try,don't give up!)	
-	<h5>1.1)
-	 ...bash...
+	<h5>1.1)  
+	`...bash...
 	 # sudo apt-get install python-dev python3-dev
 	 # cd ~/.vim/bundle/YouCompleteMe
-	 # ./install.py
+	 # ./install.py`
 	<h5>1.2)
 	 download Clang+llvm from official address
 	<h6> <1.2.0> # mkdir -p ~/ycm_temp/llvm_root_dir
