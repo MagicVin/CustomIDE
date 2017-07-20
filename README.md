@@ -189,19 +189,18 @@ several textfiles in one textfile )
 <h5>See .vimrc Link:https://github.com/MagicVin/CustomIDE/blob/master/.vimrc</br>
 <h5>See Clang link:https://github.com/MagicVin/CustomIDE/blob/master/InstallClang.guide
 <h5>See Github: https://github.com/MagicVin 
-
-<h5>Reference Article:
-English:https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/
-Chinese:http://codingpy.com/article/vim-and-python-match-in-heaven/
-YCM Github:https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64
-Compile Clang:http://howiefh.github.io/2015/05/22/vim-install-youcompleteme-plugin/
-Clang official address:http://releases.llvm.org/download.html
-Other:
-https://github.com/yangyangwithgnu/use_vim_as_ide
-http://codingpy.com/article/vim-and-python-match-in-heaven/
-https://github.com/Valloric/YouCompleteMe
-http://www.mikewootc.com/wiki/tool/sw_develop/vim_ycm_ubuntu_1604.html
-http://hahaya.github.io/build-YouCompleteMe/
+<h3>Reference Article:
+English:https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/</br>
+Chinese:http://codingpy.com/article/vim-and-python-match-in-heaven/</br>
+YCM Github:https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64</br>
+Compile Clang:http://howiefh.github.io/2015/05/22/vim-install-youcompleteme-plugin/</br>
+Clang official address:http://releases.llvm.org/download.html</br>
+<h4>Other:
+https://github.com/yangyangwithgnu/use_vim_as_ide</br>
+http://codingpy.com/article/vim-and-python-match-in-heaven/</br>
+https://github.com/Valloric/YouCompleteMe</br>
+http://www.mikewootc.com/wiki/tool/sw_develop/vim_ycm_ubuntu_1604.html</br>
+http://hahaya.github.io/build-YouCompleteMe/</br>
 
 
 
