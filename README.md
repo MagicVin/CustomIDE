@@ -113,7 +113,8 @@ several textfiles in one textfile )
 	(.tar.xz package must use "J" to extract)
 	# cd ~/ycm_temp/llvm_root_dir/clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04/
 	# cmake -G "Unix Makefiles" -DPATH_TO_LLVM_ROOT=~/ycm_temp/llvm_root_dir . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp  
-	
+	# cp ~/.vim/bundle/YouCompleteMe/third_party/ycmd/examples/.ycm_extra_conf.py ~
+
 <h6>(At this steps(1.2.3) ,you must install YCM(YouCompleteMe) in Vundle first)
 <h5>1.3)  
 	Add the following to your ~/.vimrc later  
