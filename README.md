@@ -87,7 +87,7 @@ add several lines to ~/.vimrc later
 </br> \ set fileformat=unix |  
   
 <h4>8.UTF8 Support,add the following to your ~/.vimrc  
-		<h6>set encoding=utf-8  
+<h6>set encoding=utf-8  
 <h4>9.Install bunldes for Vim
 	<h5>1.0)Install "Valloric/YouCompleteMe", add the following to your ~/.vimrc  
 	</br><h6>Bundle 'Valloric/YouCompleteMe'
