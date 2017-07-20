@@ -32,7 +32,7 @@
 	" All of your Plugins must be added before the following line  
 	call vundle#end()            " required  
 	filetype plugin indent on    " requireid
-(recommend copy above file config)  
+<h6>(recommend copy above file config)  
 <h4>3.Install Vundle  
 		  
 	...bash...  
@@ -42,12 +42,12 @@
 	:q  
 	...bash...  
 
-(Vundle install complete)  
+<h6>(Vundle install complete)  
 <h4>4.Make layout split,add two lines to ~/.vimrc later  
 
 	set splitbelow
 	set splitright  
-(In vim normal mode you can type":vs filename"or ":sv filename" to open 
+<h6>(In vim normal mode you can type":vs filename"or ":sv filename" to open 
 several textfiles in one textfile )  
 <h4>5.Jump between splits with just one key combination  
 add several lines to ~/.vimrc later  
@@ -58,7 +58,7 @@ add several lines to ~/.vimrc later
 	nnoremap "<C-L> <C-W><C-L>"
 	nnoremap "<C-H> <C-W><C-H>"  
 
-(Add them, you can use Ctrl + w[hjkl] to jump each splits)  
+<h6>(Add them, you can use Ctrl + w[hjkl] to jump each splits)  
 
 	Ctrl-j move to the split below
 	Ctrl-k move to the split above
@@ -75,7 +75,7 @@ add several lines to ~/.vimrc later
 	"Enable folding with the spacebar
 	nnoremap <space> za  
 
-(In vim normal mode ,type ":za" to fold)
+<h6>(In vim normal mode ,type ":za" to fold)
 <h4>7.Add Python Indentation  
 		<h6>add the following to your ~/.vimrc later  
 </br>au BufNewFile,BufRead *.py
@@ -96,7 +96,7 @@ add several lines to ~/.vimrc later
 	</br> map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>   
 	</br> (This steps will not easy,more try,don't give up!)	
 
-<h5>1.1)
+<h5>1.1)On command:
 	
 	 ..bash...
 	# sudo apt-get install python-dev python3-dev
