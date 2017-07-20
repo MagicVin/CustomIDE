@@ -22,7 +22,7 @@
 filetype off                  " required  
 
 " set the runtime path to include Vundle and initialize  
-set rtp+=~/.vim/bundle/Vundle.vim  
+set rtp+=home/.vim/bundle/Vundle.vim  
 call vundle#begin()  
 " alternatively, pass a path where Vundle should install plugins  
 "call vundle#begin('~/some/path/here')  
@@ -39,14 +39,14 @@ filetype plugin indent on    " requireid<h6>
   
 (recommend copy above file config)  
 <h4>3.Install Vundle  
-`  
+		  
 ...bash...  
 #vim  
 (normal mode)  
 :PluginInstall  
 :q  
 ...bash...  
-`  
+
 (Vundle install complete)  
 <h4>4.Make layout split,add two lines to ~/.vimrc later  
 `
