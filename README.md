@@ -186,21 +186,21 @@ several textfiles in one textfile )
 `
 
 <h2>The last
-<h5>See .vimrc Link:https://github.com/MagicVin/CustomIDE/blob/master/.vimrc</br>
+<h5>See .vimrc Link:https://github.com/MagicVin/CustomIDE/blob/master/.vimrc
 <h5>See Clang link:https://github.com/MagicVin/CustomIDE/blob/master/InstallClang.guide
 <h5>See Github: https://github.com/MagicVin 
 <h3>Reference Article:
-English:https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/</br>
-Chinese:http://codingpy.com/article/vim-and-python-match-in-heaven/</br>
-YCM Github:https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64</br>
-Compile Clang:http://howiefh.github.io/2015/05/22/vim-install-youcompleteme-plugin/</br>
-Clang official address:http://releases.llvm.org/download.html</br>
+<h5>English:https://realpython.com/blog/python/vim-and-python-a-match-made-in-heaven/
+<h5>Chinese:http://codingpy.com/article/vim-and-python-match-in-heaven/
+<h5>YCM Github:https://github.com/Valloric/YouCompleteMe#ubuntu-linux-x64
+<h5>Compile Clang:http://howiefh.github.io/2015/05/22/vim-install-youcompleteme-plugin/
+<h5>Clang official address:http://releases.llvm.org/download.html
 <h4>Other:
-https://github.com/yangyangwithgnu/use_vim_as_ide</br>
-http://codingpy.com/article/vim-and-python-match-in-heaven/</br>
-https://github.com/Valloric/YouCompleteMe</br>
-http://www.mikewootc.com/wiki/tool/sw_develop/vim_ycm_ubuntu_1604.html</br>
-http://hahaya.github.io/build-YouCompleteMe/</br>
+<h5>https://github.com/yangyangwithgnu/use_vim_as_ide
+<h5>http://codingpy.com/article/vim-and-python-match-in-heaven/
+<h5>https://github.com/Valloric/YouCompleteMe
+<h5>http://www.mikewootc.com/wiki/tool/sw_develop/vim_ycm_ubuntu_1604.html
+<h5>http://hahaya.github.io/build-YouCompleteMe/
 
 
 
