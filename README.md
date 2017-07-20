@@ -50,7 +50,7 @@
 <h6>(In vim normal mode you can type":vs filename"or ":sv filename" to open 
 several textfiles in one textfile )  
 <h4>5.Jump between splits with just one key combination  
-<h5>add several lines to ~/.vimrc later  
+<h5>Add several lines to ~/.vimrc later  
 
 	"split navigations
 	nnoremap "<C-J> <C-W><C-J>"
@@ -77,26 +77,28 @@ several textfiles in one textfile )
 
 <h6>(In vim normal mode ,type ":za" to fold)
 <h4>7.Add Python Indentation  
-<h5>add the following to your ~/.vimrc later  
+<h5>Add the following to your ~/.vimrc later  
 	
-	</br>au BufNewFile,BufRead *.py
-	</br> \ set tabstop=4 |
-	</br> \ set softtabstop=4 |
-	</br> \ set shiftwidth=4 |
-	</br> \ set textwidth=79 |
-	</br> \ set expandtab |
-	</br> \ set autoindent |
-</br> \ set fileformat=unix |  
+	au BufNewFile,BufRead *.py
+	\ set tabstop=4 |
+	\ set softtabstop=4 |
+	\ set shiftwidth=4 |
+	\ set textwidth=79 |
+	\ set expandtab |
+	\ set autoindent |
+	\ set fileformat=unix |  
   
 <h4>8.UTF8 Support,add the following to your ~/.vimrc  
-<h6>set encoding=utf-8  
+
+	set encoding=utf-8  
 <h4>9.Install bunldes for Vim
 <h5>1.0)Install "Valloric/YouCompleteMe", add the following to your ~/.vimrc  
-	<h6>Bundle 'Valloric/YouCompleteMe'
-	</br> let g:ycm_autoclose_preview_window_after_completion=1
-	</br> map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>   
-	</br> (This steps will not easy,more try,don't give up!)	
 
+	Bundle 'Valloric/YouCompleteMe'
+	let g:ycm_autoclose_preview_window_after_completion=1
+	map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>   
+
+<h6>(This steps will not easy,more try,don't give up!)	
 <h5>1.1)On command:
 	
 	 ..bash...
