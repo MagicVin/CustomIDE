@@ -1,0 +1,27 @@
+The goal of the Clang project is to create a new C based language front-end: C, C++, Objective C/C++, OpenCL C and others for the LLVM compiler.
+
+Follow this README, download Clang binary file first must!
+
+The Official address:
+https://clang.llvm.org/
+
+Download address:
+http://releases.llvm.org/download.html
+(Confirm your system and download appropriate package)
+(My system is Ubuntu 16.04 ,and download "Clang for x86_64 Ubuntu 16.04 (.sig)")
+
+Got the binary file, Compile and Install:
+1.mkdir -p ~/ycm_temp/llvm_root_dir
+2.tar xvfJ clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04.tar.xz -C ~/ycm_temp/llvm_root_dir
+(.tar.xz package must use "J" to extract)
+3.cd ~/ycm_temp/llvm_root_dir/clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04/
+4.cmake -G "Unix Makefiles" -DPATH_TO_LLVM_ROOT=~/ycm_temp/llvm_root_dir . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp
+(At this steps(4.) ,you must install YCM(YouCompleteMe) in Vundle first)
+
+My Clang+llvm binary flie is "clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04.tar.xz"
+But download in Official address is too slowly(only 20-30kb/s)
+So,I download the binary from official address(too difficult!) and add it in Github
+See,
+
+Aha,Clang install finish!
+See more :https://github.com/MagicVin
