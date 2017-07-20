@@ -89,13 +89,13 @@ add several lines to ~/.vimrc later
 <h4>8.UTF8 Support,add the following to your ~/.vimrc  
 <h6>set encoding=utf-8  
 <h4>9.Install bunldes for Vim
-	<h5>1.0)Install "Valloric/YouCompleteMe", add the following to your ~/.vimrc  
-	</br><h6>Bundle 'Valloric/YouCompleteMe'
+<h5>1.0)Install "Valloric/YouCompleteMe", add the following to your ~/.vimrc  
+	<h6>Bundle 'Valloric/YouCompleteMe'
 	</br> let g:ycm_autoclose_preview_window_after_completion=1
 	</br> map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>   
-	</br> (This steps will not easy,more try,don't give up!)<h6>	
-	
-	<h5>1.1)</br> 
+	</br> (This steps will not easy,more try,don't give up!)	
+	<h6>
+	<h5>1.1)
 	
 	 ..bash...
 	 # sudo apt-get install python-dev python3-dev
