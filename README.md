@@ -67,12 +67,12 @@ add several lines to ~/.vimrc later
 	Ctrl-w move to the each split 
 
 <h4>6.Enable Folding  
-</br<h5>Add two lines to ~/.vimrc later  
-		<h6>"Enable Folding
-</br>set foldmethod=indent
-</br>set foldlevel=99
-</br>"Enable folding with the spacebar
-</br>nnoremap <space> za  
+</br>Add two lines to ~/.vimrc later  
+	"Enable Folding
+	set foldmethod=indent
+	set foldlevel=99
+	"Enable folding with the spacebar
+	nnoremap <space> za  
 <h6>
 (In vim normal mode ,type ":za" to fold)
 <h4>7.Add Python Indentation  
@@ -95,7 +95,7 @@ add several lines to ~/.vimrc later
 	</br> map <leader>g  :YcmCompleter GoToDefinitionElseDeclaration<CR>   
 	</br> (This steps will not easy,more try,don't give up!)	
 
-	<h5>1.1)
+<h5>1.1)
 	
 	 ..bash...
 	# sudo apt-get install python-dev python3-dev
@@ -103,10 +103,10 @@ add several lines to ~/.vimrc later
 	 # ./install.py
 
 <h5>1.2)
-	 download Clang+llvm from official address
+</br>download Clang+llvm from official address
 	<1.2.0># mkdir -p ~/ycm_temp/llvm_root_dir
 	<1.2.1> # tar xvfJ clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04.tar.xz -C ~/ycm_temp/llvm_root_dir
-	(.tar.xz package must use "J" to extract)
+	</br>(.tar.xz package must use "J" to extract)
 	<1.2.2> # cd ~/ycm_temp/llvm_root_dir/clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04/
 	<1.2.3> # cmake -G "Unix Makefiles" -DPATH_TO_LLVM_ROOT=~/ycm_temp/llvm_root_dir . ~/.vim/bundle/YouCompleteMe/third_party/ycmd/cpp  
 	(At this steps(1.2.3) ,you must install YCM(YouCompleteMe) in Vundle first)
