@@ -17,12 +17,12 @@
 ## Recommend Bundle manager: Vundle
 
 <h4>1.git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-####2.vim ~/.vimrc  
+<h4>2.vim ~/.vimrc  
 
 	set nocompatible              " required  
 	filetype off                  " required  
 	" set the runtime path to include Vundle and initialize  
-	set rtp+=home/.vim/bundle/Vundle.vim  
+	set rtp+=~/.vim/bundle/Vundle.vim  
 	call vundle#begin()  
 	" alternatively, pass a path where Vundle should install plugins  
 	"call vundle#begin('~/some/path/here')  
@@ -35,13 +35,13 @@
 (recommend copy above file config)  
 <h4>3.Install Vundle  
 		  
-		<h6>...bash...  
-#vim  
-(normal mode)  
-:PluginInstall  
-:q  
-...bash...  
-<h6>
+	...bash...  
+	#vim  
+	(normal mode)  
+	:PluginInstall  
+	:q  
+	...bash...  
+
 (Vundle install complete)  
 <h4>4.Make layout split,add two lines to ~/.vimrc later  
 				
