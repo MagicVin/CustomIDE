@@ -1,4 +1,4 @@
-The goal of the Clang project is to create a new C based language front-end: C, C++, Objective C/C++, OpenCL C and others for the LLVM compiler.
+Te goal of the Clang project is to create a new C based language front-end: C, C++, Objective C/C++, OpenCL C and others for the LLVM compiler.
 
 Follow this README, download Clang binary file first must!
 
@@ -21,7 +21,7 @@ Got the binary file, Compile and Install:
 My Clang+llvm binary flie is "clang+llvm-4.0.0-x86_64-linux-gnu-ubuntu-16.04.tar.xz"
 But download in Official address is too slowly(only 20-30kb/s)
 So,I download the binary from official address(too difficult!) and add it in Github
-See,
+See https://github.com/MagicVin/Git-LFS-Repo
 
 Aha,Clang install finish!
 See more :https://github.com/MagicVin
