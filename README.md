@@ -1,4 +1,4 @@
-<h1>Guide for build Python IDE base on Vim</br>
+<h1>Guide for building Python IDE base on Vim</br>
 
 
 ## Prebuilt preparation:
